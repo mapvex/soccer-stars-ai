@@ -11,7 +11,7 @@ Install SikuliX, jNetPcap, and place protoc.exe into the program's working folde
 
 Also define your player ID in Constants.java, which you can find using a packet capture tool like WireShark while starting the flash game. Note that this program was built to work at the 125% Windows DPI setting, therefore to make it work with other DPIs you might have to replace the screenshots in the resource folder and also change some values in Constants.java.
 
-The program should be started by manually entering a match in the game and then starting the program. It should rematch / join a new match automatically after that.
+The program should be started after manually entering a match in the game. It should then rematch / join a new match automatically after that.
 
 # Known bugs
 * Sometimes the x coordinates on the game field are inverted, causing this program to not function correctly
