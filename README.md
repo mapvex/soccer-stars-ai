@@ -1,6 +1,8 @@
 # soccer-stars-ai
 This is a program that can automatically play a flash game named Soccer Stars. It works by intercepting the packets sent by the game server, decodes them, constructs a game state locally, simulates all possible moves, and evaluates them to find the best one and execute it.
 
+Note that this project was written just for educational purposes, so don't expect a working product without fiddling with it yourself.
+
 # Dependancies / requirements
 * jNetPcap (for capturing game packets)
 * SikuliX (for interacting with the game environment)
